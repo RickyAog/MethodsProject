@@ -49,7 +49,13 @@ System.out.println(worldHello());
         return(numberUno/numberDos);
     }
     public static double doubleIT(){
-        return(35+68);
+        System.out.println("Give me 2 numbers");
+        Scanner keyboard;
+        keyboard=new Scanner (System.in);
+        double unoDouble,dosDouble;
+        unoDouble=keyboard.nextDouble();
+        dosDouble=keyboard.nextDouble();
+        return(unoDouble-dosDouble);
     }
 
 
