@@ -49,13 +49,12 @@ System.out.println(worldHello());
         return(numberUno/numberDos);
     }
     public static double doubleIT(){
-        System.out.println("Give me 2 numbers");
+        System.out.println("Give me a numbers, they can be decimals");
         Scanner keyboard;
         keyboard=new Scanner (System.in);
-        double unoDouble,dosDouble;
+        double unoDouble;
         unoDouble=keyboard.nextDouble();
-        dosDouble=keyboard.nextDouble();
-        return(unoDouble-dosDouble);
+        return(unoDouble*2);
     }
 
 
